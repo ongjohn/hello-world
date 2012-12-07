@@ -1,0 +1,32 @@
+1.RxAnlyse函数
+  //判断校验和是否正确
+  //心跳包不加密
+  if(RxBuffer[GTYPE]==AFN_PC_REQ_HEART)
+  {
+	  if( RxBuffer[RxBuffer[GLEN] + 3]!=calcrc(&RxBuffer[GCOMMAND],RxBuffer[GLEN]) )
+	  {
+	#ifdef DBG_RS232
+	    USART_printf(USART1,"Received CRC Error.\r\n");	
+	#endif
+	    return;
+	  }
+  }
+  //下载密码不加密
+  else if(RxBuffer[GTYPE]==AFN_PC_SET_PWD)
+  {
+	  if( RxBuffer[RxBuffer[GLEN] + 3]!=calcrc(&RxBuffer[GCOMMAND],RxBuffer[GLEN]) )
+	  {
+	#ifdef DBG_RS232
+	    USART_printf(USART1,"Received CRC Error.\r\n");	
+	#endif
+	    return;
+	   }	
+  }
+  else
+  {
+  //其他的接收数据都加密
+  	Decry(&RxBuffer[13],RxBuffer[GLEN]-10,&(dargs.pwd[0]),6);  
+  }
+
+2.AFN_PC_SET_CLK下面增加
+  g_Senddata=time_set(TT_GPRS_TCP_OK,_1S);

@@ -1,0 +1,57 @@
+*** Creating Trace Output File '..\Output\STM32-DEMO.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '"..\output\main.o"'
+### List of Objects: adding '"..\output\stm32f10x_it.o"'
+### List of Objects: adding '"..\output\time_malloc.o"'
+### List of Objects: adding '"..\output\key.o"'
+### List of Objects: adding '"..\output\led.o"'
+### List of Objects: adding '"..\output\delay.o"'
+### List of Objects: adding '"..\output\timer1.o"'
+### List of Objects: adding '"..\output\ds18b20.o"'
+### List of Objects: adding '"..\output\usart.o"'
+### List of Objects: adding '"..\output\input_output.o"'
+### List of Objects: adding '"..\output\buzz.o"'
+### List of Objects: adding '"..\output\spi_flash.o"'
+### List of Objects: adding '"..\output\gprs.o"'
+### List of Objects: adding '"..\output\tft_lcd.o"'
+### List of Objects: adding '"..\output\ui.o"'
+### List of Objects: adding '"..\output\time_outprocess.o"'
+### List of Objects: adding '"..\output\rtc.o"'
+### List of Objects: adding '"..\output\storage.o"'
+### List of Objects: adding '"..\output\rs485_rs2.o"'
+### List of Objects: adding '"..\output\rs485_rs3.o"'
+### List of Objects: adding '"..\output\adc.o"'
+### List of Objects: adding '"..\output\watchdog.o"'
+### List of Objects: adding '"..\output\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\output\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\output\stm32f10x_usart.o"'
+### List of Objects: adding '"..\output\stm32f10x_tim.o"'
+### List of Objects: adding '"..\output\misc.o"'
+### List of Objects: adding '"..\output\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\output\stm32f10x_rtc.o"'
+### List of Objects: adding '"..\output\stm32f10x_adc.o"'
+### List of Objects: adding '"..\output\stm32f10x_spi.o"'
+### List of Objects: adding '"..\output\stm32f10x_bkp.o"'
+### List of Objects: adding '"..\output\stm32f10x_pwr.o"'
+### List of Objects: adding '"..\output\stm32f10x_dma.o"'
+### List of Objects: adding '"..\output\stm32f10x_iwdg.o"'
+### List of Objects: adding '"..\output\stm32f10x_wwdg.o"'
+### List of Objects: adding '"..\output\core_cm3.o"'
+### List of Objects: adding '"..\output\system_stm32f10x.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\output\startup_stm32f10x_hd.o" "..\output\main.o" "..\output\stm32f10x_it.o" "..\output\time_malloc.o" "..\output\key.o" "..\output\led.o" "..\output\delay.o" "..\output\timer1.o" "..\output\ds18b20.o" "..\output\usart.o" "..\output\input_output.o" "..\output\buzz.o" "..\output\spi_flash.o" "..\output\gprs.o" "..\output\tft_lcd.o" "..\output\ui.o" "..\output\time_outprocess.o" "..\output\rtc.o" "..\output\storage.o" "..\output\rs485_rs2.o" "..\output\rs485_rs3.o" "..\output\adc.o" "..\output\watchdog.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_usart.o" "..\output\stm32f10x_tim.o" "..\output\misc.o" "..\output\stm32f10x_fsmc.o" "..\output\stm32f10x_rtc.o" "..\output\stm32f10x_adc.o" "..\output\stm32f10x_spi.o" "..\output\stm32f10x_bkp.o" "..\output\stm32f10x_pwr.o" "..\output\stm32f10x_dma.o" "..\output\stm32f10x_iwdg.o" "..\output\stm32f10x_wwdg.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" --library_type=microlib --strict --scatter "..\Output\STM32-DEMO.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\Listing\STM32-DEMO.map" -o "..\Output\STM32-DEMO.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Output\STM32-DEMO.axf'
+### ADS-LD Command File: '..\Output\STM32-DEMO.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Output\STM32-DEMO.lnp', Handle=0x00000738
+### Writing '.lnp' file
+### ADS-LD Command file '..\Output\STM32-DEMO.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

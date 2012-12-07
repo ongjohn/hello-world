@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ProjectOpt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_opt.xsd">
+
+  <SchemaVersion>1.0</SchemaVersion>
+
+  <Header>### uVision Project, (C) Keil Software</Header>
+
+  <Extensions>
+    <cExt></cExt>
+    <aExt></aExt>
+    <oExt></oExt>
+    <lExt></lExt>
+    <tExt></tExt>
+    <pExt></pExt>
+    <CppX></CppX>
+  </Extensions>
+
+  <DaveTm>
+    <dwLowDateTime>0</dwLowDateTime>
+    <dwHighDateTime>0</dwHighDateTime>
+  </DaveTm>
+
+  <MDIGroups>
+    <Orientation>1</Orientation>
+    <ActiveMDIGroup>0</ActiveMDIGroup>
+    <MDIGroup>
+      <Size>100</Size>
+      <ActiveTab>0</ActiveTab>
+      <Documents>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\FWlib\src\stm32f10x_usart.c</Name>
+          <ColumnNumber>23</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>4</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\USER\main.c</Name>
+          <ColumnNumber>36</ColumnNumber>
+          <TopLine>63</TopLine>
+          <CurrentLine>77</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\USER\usart.c</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>72</TopLine>
+          <CurrentLine>79</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\CMSIS\startup\startup_stm32f10x_hd.s</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>159</TopLine>
+          <CurrentLine>159</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\USER\key.c</Name>
+          <ColumnNumber>49</ColumnNumber>
+          <TopLine>139</TopLine>
+          <CurrentLine>147</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\FWlib\inc\stm32f10x_gpio.h</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>177</TopLine>
+          <CurrentLine>184</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\FWlib\src\stm32f10x_gpio.c</Name>
+          <ColumnNumber>33</ColumnNumber>
+          <TopLine>536</TopLine>
+          <CurrentLine>543</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\USER\ui.c</Name>
+          <ColumnNumber>20</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>6</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\USER\tft_lcd.c</Name>
+          <ColumnNumber>20</ColumnNumber>
+          <TopLine>171</TopLine>
+          <CurrentLine>178</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>E:\WorkArea\热泵控制器\热泵控制器arm升级版\soft\FWlib\inc\stm32f10x_usart.h</Name>
+          <ColumnNumber>22</ColumnNumber>
+          <TopLine>290</TopLine>
+          <CurrentLine>295</CurrentLine>
+        </Doc>
+      </Documents>
+    </MDIGroup>
+  </MDIGroups>
+
+</ProjectOpt>
